@@ -1,0 +1,24 @@
+{
+    "name": "growthexponent/laravel-html-dom-parser",
+    "description": "Laravel wrapper for the PHP HTML DOM Parser package.",
+    "keywords": ["laravel", "laravel php html dom parser"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jpascoe",
+            "email": "jpascoe@growthexponent.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.1.*",
+        "paquettg/php-html-parser": "1.6.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "GrowthExponent\\LaravelHtmlDomParser\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
