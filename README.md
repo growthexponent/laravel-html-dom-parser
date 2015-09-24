@@ -18,7 +18,7 @@ Requires
 Install via Composer by adding the following line to the require block of your composer.json file
 
 ```php
-"growthexponent/laravel-html-dom-parser": "*"
+"growthexponent/laravel-html-dom-parser": "1.*"
 ```
 
 Then run ```php composer update ```
