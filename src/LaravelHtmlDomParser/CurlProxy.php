@@ -1,4 +1,7 @@
-<?php namespace LaravelHtmlDomParser;
+<?php
+
+namespace LaravelHtmlDomParser;
+
 /**
  * CurlProxy.php
  *

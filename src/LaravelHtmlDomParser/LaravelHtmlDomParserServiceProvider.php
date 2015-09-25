@@ -1,4 +1,6 @@
-<?php namespace LaravelHtmlDomParser;
+<?php
+
+namespace LaravelHtmlDomParser;
 
 use Illuminate\Support\ServiceProvider;
 
