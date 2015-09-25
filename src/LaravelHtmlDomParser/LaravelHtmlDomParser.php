@@ -1,4 +1,4 @@
-<?php namespace GrowthExponent\LaravelHtmlDomParser;
+<?php namespace LaravelHtmlDomParser;
 /**
  * LaravelHtmlDomParser.php
  *

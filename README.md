@@ -18,7 +18,7 @@ Requires
 Install via Composer by adding the following line to the require block of your composer.json file
 
 ```php
-"growthexponent/laravel-html-dom-parser": "1.0.4"
+"growthexponent/laravel-html-dom-parser": "1.0.*"
 ```
 
 Then run ```php composer update ```
@@ -26,7 +26,7 @@ Then run ```php composer update ```
 Add this line to the providers array in your ```php app/config/app.php ``` file:
 
 ```php
-'GrowthExponent\LaravelHtmlDomParser\LaravelHtmlDomParserServiceProvider',
+'LaravelHtmlDomParser\LaravelHtmlDomParserServiceProvider',
 ```
 
 ## Sample Usage
@@ -35,7 +35,7 @@ Add this line to the providers array in your ```php app/config/app.php ``` file:
 
 <?php
 
-use GrowthExponent\LaravelHtmlDomParser\LaravelHtmlDomParser;
+use LaravelHtmlDomParser\LaravelHtmlDomParser;
 
 class ...Controller extends Controller
 {
