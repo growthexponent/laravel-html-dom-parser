@@ -1,4 +1,7 @@
-<?php namespace LaravelHtmlDomParser;
+<?php
+
+namespace LaravelHtmlDomParser;
+
 /**
  * LaravelHtmlDomParser.php
  *
@@ -8,7 +11,7 @@
  */
 
 use PHPHtmlParser\Dom;
-use GrowthExponent\LaravelHtmlDomParser\CurlProxy;
+use LaravelHtmlDomParser\CurlProxy;
 
 class LaravelHtmlDomParser extends Dom {
 
