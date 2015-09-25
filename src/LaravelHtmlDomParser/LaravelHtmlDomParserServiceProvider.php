@@ -1,10 +1,10 @@
-<?php namespace GrowthExponent\LaravelHtmlDomParser;
+<?php namespace LaravelHtmlDomParser;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class LaravelHtmlDomParserServiceProvider
- * @package GrowthExponent\LaravelHtmlDomParser
+ * @package LaravelHtmlDomParser
  */
 class LaravelHtmlDomParserServiceProvider extends ServiceProvider {
 
@@ -42,7 +42,7 @@ class LaravelHtmlDomParserServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return array();
+		return [];
 	}
 
 }
