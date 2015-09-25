@@ -22,7 +22,7 @@ class LaravelHtmlDomParserServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('growthexponent/laravel-html-dom-parser');
+
 	}
 
 	/**
